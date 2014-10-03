@@ -1,6 +1,11 @@
-﻿body {background:gray; padding:20px;}
+﻿body {background:#FFFF99; padding:20px; font-family:'Comic Sans MS'; font-size:16pt; text-align:center; font-weight:bold;}
 
-img{width:200px; border:solid 1px black;}
+img{width:324px; 
+border:solid 1px black;
+    height: 198px;
+}
 
-h1{font-weight:bold;}
+h1{font-weight:bold; font-family:'Comic Sans MS'; font-size:36px; text-align:center; color:#FF0066;}
+
+h2{font-weight:bold; font-family:'Comic Sans MS'; font-size:24px; text-align:center;}
 
