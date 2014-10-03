@@ -24,8 +24,6 @@
             Employee Net Pay Calculator
         </h2>    
        
-        <%If Not IsPostBack Then%>
-
         Hourly wage:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="tb_HourlyWage" runat="server" style="margin-left: 74px"></asp:TextBox>
         <br />
@@ -43,13 +41,12 @@
         <br />
         <br />
         <asp:Button ID="btn_CalculateNetPay" runat="server" Text="Calculate Net Pay" BackColor="#FF0066" Font-Bold="True" Font-Names="Comic Sans MS" Font-Size="14pt" />
-
-        <%Else%>
-
+        <br />
+        <br /> 
+        <asp:Button ID="btn_Clear" runat="server" BackColor="#FF0066" Font-Bold="True" Font-Names="Comic Sans MS" Font-Size="14pt" Text="Clear" />
+          
         <br />
         Your net pay this week is:&nbsp; <asp:Label ID="lbl_NetPay" runat="server"></asp:Label>
-
-        <%End If%>
     
     </div>
     </form>
